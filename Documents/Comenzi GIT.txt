@@ -13,7 +13,7 @@ add → dorim să adăugăm o conexiune externă
 origin → alias pentru un repository aflat în cloud
 URL → link-ul către repository-ul pe care dorim să îl urmărim
 
-git log    verifica comiturile
+git log    verifica comiturile   
 
 
 git status vedem daca sunt fisiere care trebuie adaugate

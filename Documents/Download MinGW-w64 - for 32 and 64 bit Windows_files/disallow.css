@@ -1,0 +1,22 @@
+.hide-from-crawlers{display: revert;}
+
+.v-sf .m-screenshots-display-full .cta-heading:before {
+    content: 'No Screenshots Yet';
+}
+.v-sf .m-screenshots-display-full .cta-text:before {
+    content: 'Is this your software?  If so, it sure could use a little sprucing up with screen captures and updated information!';
+}
+
+.v-sd .m-screenshots-display-full .cta-heading:before {
+    content: 'No Images Provided';
+}
+.v-sd .m-screenshots-display-full .cta-text:before {
+    content: 'Is this your software? Claim the page to add screenshots.';
+}
+
+.v-tbs .m-screenshots-display-full .cta-heading:before {
+    content: 'No Media Provided';
+}
+.v-tbs .m-screenshots-display-full .cta-text:before {
+    content: 'Do you represent this software product? Add screenshots by claiming the page';
+}
