@@ -43,14 +43,30 @@ Tot ce trebuie să facem este să selectăm fișierele care reprezintă mileston
 
 
 
+Pentru a crea un branch din CLI avem comanda “git checkout -b nume_branch” care vă va și comuta pe acesta.
 
+student@student:~$ git checkout -b "test_branch"
+Switched to a new branch 'test_branch'
+ 
+student@student:~$ git status
+On branch test_branch
+nothing to commit, working tree clean
+Pentru a comuta pe un branch diferit putem folosi comanda “git switch nume_branch”.
 
-test
-
-
-
-
-
+student@student:~$ git branch
+  main
+* test_branch
+(END)
+ 
+student@student:~$ git switch main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+ 
+student@student:~$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+ 
+nothing to commit, working tree clean
 
 
 
