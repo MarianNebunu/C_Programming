@@ -1,0 +1,14 @@
+https://ocw.cs.pub.ro/courses/poo-ca-cd/resurse-utile/tutorial-git
+
+
+Pentru a clona un repo, folosim comanda “git clone adresa_https_repo [cale_repo]“.
+Există posibilitatea să vă faceți un repo direct din folder-ul din care lucrați folosind comanda “git init”.
+git branch -m <name>
+
+Dacă alegeți să faceți un repository local folosind comanda “git init”, va fi nevoie să îl legați pe acesta la un repository din cloud pentru a putea avea proiectul vostru sincronizat și disponibil pe mai multe device-uri. Înainte să începeți procesul de legare, trebuie să vă creați un repository, urmând ca apoi să rulați comenzile de mai jos cu URL-ul repository-ului creat de voi.
+
+student@student:~$ git remote add origin https://github.com/github_id/test_repo.git
+git remote → dorim să lucrăm cu conexiuni la alte repository-uri
+add → dorim să adăugăm o conexiune externă
+origin → alias pentru un repository aflat în cloud
+URL → link-ul către repository-ul pe care dorim să îl urmărim
